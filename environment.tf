@@ -73,7 +73,7 @@ variable "azure_region" {
 
 variable "resource_group_name" {
   type        = string
-  default     = "PoC-Synapse-Analytics"
+  default     = "MDC-Eduardo-RG"
   description = "Resource Group for all related Azure services."
 }
 
@@ -91,7 +91,7 @@ variable "synapse_sql_administrator_login_password" {
 
 variable "synapse_azure_ad_admin_upn" {
   type        = string
-  default     = ""
+  default     = "j.marcos.hernandez@accenture.com"
   description = "UserPrincipcalName (UPN) for the Azure AD administrator of Synapse. This can also be a group, but only one value can be specified. (i.e. shane@microsoft.com)"
 }
 
