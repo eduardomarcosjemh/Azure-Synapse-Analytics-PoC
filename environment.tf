@@ -214,16 +214,16 @@ data "azurerm_resources" "synapse-sql-privatelink-dns" {
 //  Create the Resource Group
 //   Azure: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
 //   Terraform: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group
-resource "azurerm_resource_group" "resource_group" {
-  name     = var.resource_group_name
-  location = var.azure_region
-
-  tags = {
-    Environment = "PoC"
-    Application = "Azure Synapse Analytics"
-    Purpose     = "Azure Synapse Analytics Proof of Concept"
-  }
-}
+//resource "azurerm_resource_group" "resource_group" {
+//  name     = var.resource_group_name
+//  location = var.azure_region
+//
+//  tags = {
+//    Environment = "PoC"
+//    Application = "Azure Synapse Analytics"
+//    Purpose     = "Azure Synapse Analytics Proof of Concept"
+//  }
+//}
 
 /************************************************************************************************************************************************
 
